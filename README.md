@@ -1,4 +1,3 @@
----------------------------------------------------------------------------------------------------
 SVSR:a Program to Simulate Structural Variations and Generate Sequence Reads for Multiple Platforms
 ---------------------------------------------------------------------------------------------------
 
@@ -8,13 +7,13 @@ SVSR:a Program to Simulate Structural Variations and Generate Sequence Reads for
   2. Usage
 
 
---------------------------------------------------------------------------------
+
 1. Tools
 --------------------------------------------------------------------------------
 1.1 gc_content:this tool is used to compute gc content for genome(usage:./gc_content -infile_fa <test.fa>)
 
 
---------------------------------------------------------------------------------
+
 2.Usage
 --------------------------------------------------------------------------------
 Usage:sh SVSR.sh
