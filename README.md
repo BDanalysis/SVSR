@@ -19,7 +19,12 @@ Contents
 
 1.Folder information
 --------------------
-There are two folders in SVSR, which are SVSR_GUI and SVSR_CLI.
+There are two folders in SVSR, which are SVSR and SVSR_GUI. SVSR include executable file of SVSR whcih can be used by setting
+
+parameter in SVSR.sh. SVSR_GUI include executable file of SVSR with a GUI and it is easy to use it. Thus we mainly discuss the 
+
+use of SVSR with CLI.
+
 
 2.Tools
 --------
@@ -31,7 +36,7 @@ There are two folders in SVSR, which are SVSR_GUI and SVSR_CLI.
 
 3.Installation
 --------------
-SVSR_GUI and SVSR_CLI are both free of installation.
+SVSR_GUI and SVSR_CLI are both free of installation. Because it is a compiled C++ file, it can be used directly.
 
 
 4.Usage: sh SVSR.sh
