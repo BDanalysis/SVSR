@@ -19,19 +19,19 @@ Contents
 
 1.Folder information
 --------------------
-
+There are two folders in SVSR, which are SVSR_GUI and SVSR_CLI.
 
 2.Tools
 --------
 
-2.1 gc_content:this tool is used to compute gc content for genome
+2.1 gc_content: this tool is used to compute gc content for genome
 
-gc_content usage: ./gc_content -infile_fa <reference.fa>
+	gc_content usage: ./gc_content -infile_fa <reference.fa>
 
 
 3.Installation
 --------------
-
+SVSR_GUI and SVSR_CLI are both free of installation.
 
 
 4.Usage: sh SVSR.sh
