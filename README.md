@@ -44,7 +44,7 @@ SVSR_GUI and SVSR_CLI are both free of installation.
 
 parameters:
 
-	-infile_ref(Required)
+	-infile_ref(Required)	reference.fa
 	
         -infile_s(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
 	
