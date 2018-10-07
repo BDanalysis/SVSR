@@ -43,6 +43,7 @@ SVSR_GUI and SVSR_CLI are both free of installation.
 	./sim [parameters] <values>...
 
 parameters:
+
 	-infile_ref(Required)	reference.fa
 	
         -infile_s(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
@@ -170,10 +171,14 @@ example:
 	
 5.Output
 --------
+5.1 gc_content
+5.2 simulation
+5.3 reads generation
 
 
 
 6.Platform
 ----------
+SVSR runs on a Linux system
     
 
