@@ -7,6 +7,8 @@ Contents
 
 2.Tools
 
+3.Installation
+
 3.Usage
 
 4.Output
@@ -22,11 +24,17 @@ Contents
 2.Tools
 --------
 
-1.1 gc_content:this tool is used to compute gc content for genome(usage:./gc_content -infile_fa <test.fa>)
+2.1 gc_content:this tool is used to compute gc content for genome
+
+gc_content usage: ./gc_content -infile_fa <reference.fa>
+
+
+3.Installation
+--------------
 
 
 
-3.Usage: sh SVSR.sh
+4.Usage: sh SVSR.sh
 --------------------
 
 
@@ -103,12 +111,12 @@ example:
 	./g454 -infile_fa ./Datas/a.fa -infile_pe_se p -infile_cov 5 -infile_readlen 140 -infile_rstd 5 -infile_erate 1000000
 	
 	
-4.Output
+5.Output
 --------
 
 
 
-5.Platform
+6.Platform
 ----------
     
 
