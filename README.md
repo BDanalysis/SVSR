@@ -3,21 +3,30 @@ SVSR:a Program to Simulate Structural Variations and Generate Sequence Reads for
 
 Contents
 --------
-1.Tools
+1.Folder information
 
-2.Usage
+2.Tools
+
+3.Usage
+
+4.Output
+
+5.Platform
 
 
 
+1.Folder information
+--------------------
 
-1.Tools
+
+2.Tools
 --------
 
 1.1 gc_content:this tool is used to compute gc content for genome(usage:./gc_content -infile_fa <test.fa>)
 
 
 
-2.Usage: sh SVSR.sh
+3.Usage: sh SVSR.sh
 --------------------
 
 
@@ -92,5 +101,14 @@ parameters:
 	-infile_erate(Optional Default=1000000) ##error rate
 example:
 	./g454 -infile_fa ./Datas/a.fa -infile_pe_se p -infile_cov 5 -infile_readlen 140 -infile_rstd 5 -infile_erate 1000000
+	
+	
+4.Output
+--------
+
+
+
+5.Platform
+----------
     
 
