@@ -42,25 +42,25 @@ SVSR_GUI and SVSR_CLI are both free of installation.
 
 parameters:
 	-infile_ref(Required)
-        -infile_s(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
-        -infile_i(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
-        -infile_t(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
-        -infile_c(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
-        -infile_I(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
-        -infile_T(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
-        -infile_snp_rate(Optional Default="./Datas/SNP_rate.txt")	##you can replace it whit your snp rate file
-        -infile_ts(Optional Default=0.5)				##transition rate in snp
-        -infile_very_short_rate(Optional Default=0.6)			##rate of very short snp(1~9bp)
-        -infile_short_rate(Optional Default=0.3)			##rate of short snp(10~40bp)
-        -infile_large_rate(Optional Default=0.1)			##rate of large snp(41~10kbp)
-        -infile_hes_rate(Optional Default=0.6)				##rate of heterozygous snp
-        -infile_tumor(Optional Default=1)				##whether or not does somatic variations happen(1 is happen and 0 is not happen)
-        -infile_Nt(Optional Default=1)					##the number of tumor
+        -infile_s(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic <bt>
+        -infile_i(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic <bt>
+        -infile_t(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic <bt>
+        -infile_c(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic <bt>
+        -infile_I(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic <bt>
+        -infile_T(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic <bt>
+        -infile_snp_rate(Optional Default="./Datas/SNP_rate.txt")	##you can replace it whit your snp rate file <bt>
+        -infile_ts(Optional Default=0.5)				##transition rate in snp <bt>
+        -infile_very_short_rate(Optional Default=0.6)			##rate of very short snp(1~9bp) <bt>
+        -infile_short_rate(Optional Default=0.3)			##rate of short snp(10~40bp) <bt>
+        -infile_large_rate(Optional Default=0.1)			##rate of large snp(41~10kbp) <bt>
+        -infile_hes_rate(Optional Default=0.6)				##rate of heterozygous snp <bt>
+        -infile_tumor(Optional Default=1)				##whether or not does somatic variations happen(1 is happen and 0 is not happen) <bt>
+        -infile_Nt(Optional Default=1)	 <bt>				##the number of tumor
 example:
-	./sim -infile_ref reference.fa -infile_c 2 -infile_ts 0.55 -infile_hes_rate 0.61 -infile_Nt 2
+	./sim -infile_ref reference.fa -infile_c 2 -infile_ts 0.55 -infile_hes_rate 0.61 -infile_Nt 2 <bt>
 
-2.2 reads generation
-2.2.1 illumina
+2.2 reads generation <bt>
+2.2.1 illumina <bt>
 parameters:
 	-infile_norm(Required)		##normal genome
 	-infile_tumor(Required)		##tumor genome
