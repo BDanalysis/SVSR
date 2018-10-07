@@ -78,7 +78,7 @@ parameters:
 	
 example:
 
-	./sim -infile_ref reference.fa -infile_c 2 -infile_ts 0.55 -infile_hes_rate 0.61 -infile_Nt 2 <bt>
+	./sim -infile_ref reference.fa -infile_c 2 -infile_ts 0.55 -infile_hes_rate 0.61 -infile_Nt 2
 
 2.2 reads generation
 
@@ -174,14 +174,20 @@ example:
 --------
 5.1 gc_content
 
+It outputs a content file containing the GC content of each chromosome and mean GC content of genome. 
+
 5.2 simulation
 
+It outputs the mutated gene sequence and the result files.
+
 5.3 reads generation
+
+It outputs the fastq file after reads generation.
 
 
 
 6.Platform
 ----------
-SVSR runs on a Linux system
+SVSR runs on a Linux system.
     
 
