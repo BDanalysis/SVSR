@@ -7,14 +7,17 @@ Contents
 
 2.Usage
 
-1. Tools
+
+
+
+1.Tools
 --------
 
 1.1 gc_content:this tool is used to compute gc content for genome(usage:./gc_content -infile_fa <test.fa>)
 
 
 
-2. Usage: sh SVSR.sh
+2.Usage: sh SVSR.sh
 --------------------
 
 
