@@ -42,12 +42,12 @@ SVSR_GUI and SVSR_CLI are both free of installation.
 
 parameters:
 	-infile_ref(Required)
-        -infile_s(Optional Default=0)	##0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
-        -infile_i(Optional Default=0)	##0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
-        -infile_t(Optional Default=0)	##0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
-        -infile_c(Optional Default=0)	##0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
-        -infile_I(Optional Default=0)	##0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
-        -infile_T(Optional Default=0)	##0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
+        -infile_s(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
+        -infile_i(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
+        -infile_t(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
+        -infile_c(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
+        -infile_I(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
+        -infile_T(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
         -infile_snp_rate(Optional Default="./Datas/SNP_rate.txt")	##you can replace it whit your snp rate file
         -infile_ts(Optional Default=0.5)				##transition rate in snp
         -infile_very_short_rate(Optional Default=0.6)			##rate of very short snp(1~9bp)
