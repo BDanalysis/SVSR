@@ -172,7 +172,9 @@ example:
 5.Output
 --------
 5.1 gc_content
+
 5.2 simulation
+
 5.3 reads generation
 
 
