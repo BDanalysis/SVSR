@@ -195,7 +195,7 @@ It outputs the fastq file after reads generation.
 ----------
 Envirmrnt:Linux
 
-Requirments: GSL Library
+Requirments: GSL Library（quick setup: sudo apt-get install libgsl0ldbl）
 
 
     
