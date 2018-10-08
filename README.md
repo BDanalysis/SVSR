@@ -73,6 +73,8 @@ parameters:
 	
         -infile_hes_rate(Optional Default=0.6)				##rate of heterozygous snp
 	
+	-infile_inq(Optional Default="/Datas/inq_life_micro_database.txt")	##indel insert database
+	
         -infile_tumor(Optional Default=1)				##whether or not does somatic variations happen(1 is happen and 0 is not happen)
 	
         -infile_Nt(Optional Default=1)  				##the number of tumor
@@ -80,7 +82,7 @@ parameters:
 	
 example:
 
-	./sim -infile_ref reference.fa -infile_c 2 -infile_ts 0.55 -infile_hes_rate 0.61 -infile_Nt 2
+	./sim -infile_ref reference.fa -infile_c 2 -infile_ts 0.55 -infile_hes_rate 0.61 -infile_inq "./Datas/inq_life_micro_database.txt" -infile_Nt 2
 
 2.2 reads generation
 
