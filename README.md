@@ -32,7 +32,9 @@ There are two folders in SVSR, which are SVSR and SVSR_GUI. SVSR include executa
 
 3.Installation
 --------------
-SVSR_GUI and SVSR are both free of installation. Because they are all compiled C++ files, and they can be used directly.
+Download the source code from https://github.com/BDanalysis/SVSR, extract the zip file
+
+SVSR_GUI and SVSR are both free of installation. Because they are all compiled C++ files, and they can be used directly by runing "sh SVSR.sh".
 
 
 4.Usage: sh SVSR.sh
@@ -191,6 +193,10 @@ It outputs the fastq file after reads generation.
 
 6.Platform
 ----------
-SVSR runs on a Linux system.
+Envirmrnt:Linux
+
+Requirments: GSL Library
+
+
     
 
