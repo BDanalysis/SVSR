@@ -1,0 +1,35 @@
+#!/usr/bin/perl -w
+use strict;
+use warnings;
+# Trains
+open(TRAINS,"<$ARGV[0]") or die "CNV train file can not open,$!";  #
+my $nn = 0;
+my $na = 0;
+my $nd = 0;
+my $an = 0;
+my $aa = 0;
+my $ad = 0;
+my $dn = 0;
+my $da = 0;
+my $dd = 0;
+my $count_n = 0;
+my $count_a = 0;
+my $count_d = 0;
+while(<TRAINS>)
+{
+	my @data;
+	@data = split/\n/,$_;
+	@data = split/\n/,$data[0];
+	print "@data\n";
+	for(my $no = 0; $no <=$#data;$no++)
+	{
+		#print "\n";
+		if($data[$no]==0){$count_d++;}
+		if($data[$no]==1){$count_n++;}
+		if($data[$no]==2){$count_a++;}
+	}
+	
+	
+	#print $_;
+}
+close(TRAINS);

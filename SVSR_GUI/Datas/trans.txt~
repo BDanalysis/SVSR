@@ -1,0 +1,4 @@
+translocation	first	first_loc	first_length	second	second_loc	second_length
+t(1:11)(q42.1:q14.3)(0)	1	100	100	11	100	101
+t(2:10)(q42.1:q14.3)(0)	2	100	100	10	100	202
+t(5:10)(q42.1:q14.3)(0)	5	100	100	10	100	203

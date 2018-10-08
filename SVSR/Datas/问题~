@@ -1,0 +1,15 @@
+1.结果文件名称
+2.Tandem duplication的定位问题:  Map[key,value] key=绝对位置，value为相对位置
+map<long int ,long int> indelmap;
+indelmap[1] = 1;  
+//indelmap.insert();
+
+
+
+
+
+
+
+
+/////
+ ////////1.pair<int,string> value(1,"a")；maplive.insert(value);
