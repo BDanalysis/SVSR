@@ -83,7 +83,9 @@ example:
 2.2 reads generation
 
 2.2.1 illumina
+
 parameters:
+
 	-infile_norm(Required)		##normal genome
 	
 	-infile_tumor(Required)		##tumor genome
@@ -131,6 +133,7 @@ example:
 	./solid -infile_fa ./Datas/a.fa -infile_pe_se p -infile_cov 1 -infile_readlen 50 -infile_erate 1000000
 	
 2.2.3 ion torrent
+
 parameters:
 
 	-infile_fa(Required)	##genome file	
