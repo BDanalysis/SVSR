@@ -32,7 +32,7 @@ There are two folders in SVSR, which are SVSR and SVSR_GUI. SVSR include executa
 
 3.Installation
 --------------
-SVSR_GUI and SVSR_CLI are both free of installation. Because it is a compiled C++ file, it can be used directly.
+SVSR_GUI and SVSR are both free of installation. Because they are all compiled C++ files, and they can be used directly.
 
 
 4.Usage: sh SVSR.sh
@@ -42,10 +42,10 @@ SVSR_GUI and SVSR_CLI are both free of installation. Because it is a compiled C+
 2.1 simulation: 
 
 	./sim [parameters] <values>...
-
+	
 parameters:
 
-	-infile_ref(Required)	reference.fa
+	-infile_ref(Required Default=reference.fa)	
 	
         -infile_s(Optional Default=0)	0,1,2,3  0=00=no germline and no somatic,1=01=no germline but with somatic,2=10=germline but no somatic,3=11=germline and somatic
 	
