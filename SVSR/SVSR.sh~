@@ -23,7 +23,7 @@ my_infile_erate="10000"
 my_infile_nthreads="1"
 my_infile_trate="0.8"
 my_infile_gc_content="./Datas/reference.fa.gc_content"
-my_infile_inq="./Datas/inq_life_micro_database.txt"
+my_infile_inq="./Datas/inq_life_micro_database1.txt"
 
 
 #sequencing function
