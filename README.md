@@ -197,7 +197,7 @@ It outputs the fastq file after reads generation.
 ----------
 Environment: Linux
 
-Requirments: GSL Library（quick setup: sudo apt-get install libgsl0ldbl）
+Requirments: GSL Library（Notice:SVSR supports gsl 2.0 version and the download address is:ftp://ftp.gnu.org/gnu/gsl/  quick setup: sudo apt-get install libgsl0ldbl）
 
     
 
