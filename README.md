@@ -34,14 +34,14 @@ There are two folders in SVSR, which are SVSR and SVSR_GUI. SVSR include executa
 --------------
 Download the source code from https://github.com/BDanalysis/SVSR, extract the zip file
 
-SVSR_GUI and SVSR are both free of installation. Because they are all compiled C++ files, and they can be used directly by runing "sh SVSR.sh".
+SVSR and SVSR_GUI are both free of installation. Because they are all compiled C++ files, they can be used directly by runing "sh SVSR.sh".
 
 
 4.Usage: sh SVSR.sh
 --------------------
 
 
-2.1 simulation: 
+4.1 simulation: 
 
 	./sim [parameters] <values>...
 	
@@ -84,9 +84,9 @@ example:
 
 	./sim -infile_ref reference.fa -infile_c 2 -infile_ts 0.55 -infile_hes_rate 0.61 -infile_inq "./Datas/inq_life_micro_database.txt" -infile_Nt 2
 
-2.2 reads generation
+4.2 reads generation
 
-2.2.1 illumina
+4.2.1 illumina
 
 parameters:
 
@@ -118,7 +118,7 @@ example:
 	-infile_pe_se "p" -infile_gc_content "germline_cnv1.fa.gc_content" \
 	-infile_cov  5 -infile_readlen 100 -infile_erate 10000000 -infile_trate 1 -iterator 1
 
-2.2.2 solid
+4.2.2 solid
 
 parameters:
 
@@ -136,7 +136,7 @@ example:
 
 	./solid -infile_fa ./Datas/a.fa -infile_pe_se p -infile_cov 1 -infile_readlen 50 -infile_erate 1000000
 	
-2.2.3 ion torrent
+4.2.3 ion torrent
 
 parameters:
 
@@ -156,7 +156,7 @@ example:
 
 	./ion -infile_fa ./Datas/a.fa -infile_pe_se p -infile_cov 5 -infile_readlen 50 -infile_erate 1000000
 	
-2.2.4 454
+4.2.4 454
 
 parameters:
 
