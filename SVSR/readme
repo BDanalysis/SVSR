@@ -43,6 +43,7 @@ parameters:
 	-Pdn(Optional Default=0.000014)					##the transition propabilty from deletion to normal state
 	-Pda(Optional Default=0)					##the transition propabilty from deletion to amplification
 	-Pdd(Optional Default=0.999986)					##the transition propabilty from deletion to deletion
+	-infile_inq(Optional Default="/Datas/inq_life_micro_database.txt")	##indel insert database
 example:
 	./sim -infile_ref test.fa -infile_c 2 -infile_ts 0.55 -infile_hes_rate 0.61 -infile_Nt 2
 ====================
