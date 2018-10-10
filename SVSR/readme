@@ -34,6 +34,7 @@ parameters:
         -infile_hes_rate(Optional Default=0.6)				##rate of heterozygous snp
         -infile_tumor(Optional Default=1)				##whether or not does somatic variations happen(1 is happen and 0 is not happen)
         -infile_Nt(Optional Default=1)					##the number of tumor
+	-infile_indel_rate(Optional Default=7.2)                        ##indel frequency is 7.2kb per base
 	-Pnn(Optional Default=0.9999993)				##the transition propabilty from normal state to normal state
 	-Pna(Optional Default=0.00000035)				##the transition propabilty from normal state to amplification
 	-Pnd(Optional Default=0.00000035)				##the transition propabilty from normal state to deletion
