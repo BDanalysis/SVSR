@@ -28,6 +28,10 @@ There are two folders in SVSR, which are SVSR and SVSR_GUI. SVSR include executa
 2.1 gc_content: this tool is used to compute gc content for genome
 
 	gc_content usage: ./gc_content -infile_fa <reference.fa>
+	
+2.2 trains:this tool is used to train transition probability
+	
+	./trains -infile_cnv_result <trans.txt>
 
 
 3.Installation
@@ -72,6 +76,8 @@ parameters:
         -infile_large_rate(Optional Default=0.1)			##rate of large snp(41~10kbp)
 	
         -infile_hes_rate(Optional Default=0.6)				##rate of heterozygous snp
+	
+	-infile_indel_rate(Optional Default=7.2)                        ##indel frequency is 7.2kb per base
 	
 	-Pnn(Optional Default=0.9999993)				##the transition propabilty from normal state to normal state
 	
