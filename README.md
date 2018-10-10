@@ -226,7 +226,6 @@ It outputs the mutated gene sequence and the result files.
 It outputs the fastq file after reads generation.
 
 
-
 6.Platform
 ----------
 Environment: Linux
