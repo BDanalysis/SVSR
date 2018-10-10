@@ -9,6 +9,7 @@ Contents
 1. Tools
 ====================
 1.1 gc_content:this tool is used to compute gc content for genome(usage:./gc_content -infile_fa <test.fa>)
+1.2 trains:this tool is used to train transition probability(usage:./trains -infile_cnv_result <trans.txt>)
 
 
 2. Usage
@@ -33,6 +34,15 @@ parameters:
         -infile_hes_rate(Optional Default=0.6)				##rate of heterozygous snp
         -infile_tumor(Optional Default=1)				##whether or not does somatic variations happen(1 is happen and 0 is not happen)
         -infile_Nt(Optional Default=1)					##the number of tumor
+	-Pnn(Optional Default=0.9999993)				##the transition propabilty from normal state to normal state
+	-Pna(Optional Default=0.00000035)				##the transition propabilty from normal state to amplification
+	-Pnd(Optional Default=0.00000035)				##the transition propabilty from normal state to deletion
+	-Pan(Optional Default=0.000009)					##the transition propabilty from amplification to normal state
+	-Paa(Optional Default=0.999991)					##the transition propabilty from amplification to amplification
+	-Pad(Optional Default=0)					##the transition propabilty from amplification to deletion
+	-Pdn(Optional Default=0.000014)					##the transition propabilty from deletion to normal state
+	-Pda(Optional Default=0)					##the transition propabilty from deletion to amplification
+	-Pdd(Optional Default=0.999986)					##the transition propabilty from deletion to deletion
 example:
 	./sim -infile_ref test.fa -infile_c 2 -infile_ts 0.55 -infile_hes_rate 0.61 -infile_Nt 2
 ====================
