@@ -73,6 +73,24 @@ parameters:
 	
         -infile_hes_rate(Optional Default=0.6)				##rate of heterozygous snp
 	
+	-Pnn(Optional Default=0.9999993)				##the transition propabilty from normal state to normal state
+	
+	-Pna(Optional Default=0.00000035)				##the transition propabilty from normal state to amplification
+	
+	-Pnd(Optional Default=0.00000035)				##the transition propabilty from normal state to deletion
+	
+	-Pan(Optional Default=0.000009)					##the transition propabilty from amplification to normal state
+	
+	-Paa(Optional Default=0.999991)					##the transition propabilty from amplification to amplification
+	
+	-Pad(Optional Default=0)					##the transition propabilty from amplification to deletion
+	
+	-Pdn(Optional Default=0.000014)					##the transition propabilty from deletion to normal state
+	
+	-Pda(Optional Default=0)					##the transition propabilty from deletion to amplification
+	
+	-Pdd(Optional Default=0.999986)					##the transition propabilty from deletion to deletion
+	
 	-infile_inq(Optional Default="/Datas/inq_life_micro_database.txt")	##indel insert database
 	
         -infile_tumor(Optional Default=1)				##whether or not does somatic variations happen(1 is happen and 0 is not happen)
