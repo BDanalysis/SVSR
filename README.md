@@ -21,6 +21,16 @@ Contents
 --------------------
 There are two folders in SVSR, which are SVSR and SVSR_GUI. SVSR include executable file of SVSR whcih can be used by setting parameter in SVSR.sh. SVSR_GUI include executable file of SVSR with a GUI and it is easy to use it. Thus we mainly discuss the use of SVSR with CLI.
 
+There are 4 folders in SVSR and these are:
+
+Datas: This folder contains deault datas
+
+example:This folder contains 4 examples of the use of SVSR.
+
+Results:This folder contains the result datas
+
+tools：This folder containss two useful tools.
+
 
 2.Tools
 --------
@@ -31,7 +41,7 @@ There are two folders in SVSR, which are SVSR and SVSR_GUI. SVSR include executa
 	
 2.2 trains:this tool is used to train transition probability
 	
-	./trains -infile_cnv_result <trans.txt>
+	trans usage: ./trains -infile_cnv_result <trans.txt>
 
 
 3.Installation
